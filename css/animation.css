@@ -1,0 +1,49 @@
+.fromleft {
+    position: relative;
+    animation-name: fromleft;
+    animation-duration: 2.5s;
+    animation: bounce;
+}
+
+.fromright{
+    position: relative;
+    animation-name: fromright;
+    animation-duration: 2.5s;
+}
+.frombottom{
+    position: relative;
+    animation-name: frombottom;
+    animation-duration: 2.5s;
+}
+
+
+
+
+
+@keyframes fromleft {
+    0% {
+        left: -200px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+@keyframes fromright{
+    0%{
+        right: -200px;
+    }
+    100%{
+        right: 0px;
+    }
+    
+}
+@keyframes frombottom {
+    0% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}

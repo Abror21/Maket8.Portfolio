@@ -1,0 +1,235 @@
+
+@media(max-width: 1920px){
+
+}
+@media(max-width: 1680px){
+
+}
+@media(max-width: 1440px){
+
+}
+@media(max-width: 1366px){
+
+}
+@media(max-width: 1280px){
+
+}
+@media(max-width: 1024px){
+    .slider {
+        margin-bottom: 6em;
+    }
+    .expertise {
+        margin-bottom: 6em;
+    }
+    .default_section {
+        padding: 4em 0 6em;
+    }
+}
+@media(max-width: 992px){
+    .slider {
+        margin-bottom: 5em;
+    }
+    .expertise {
+        margin-bottom: 5em;
+    }
+    .default_section {
+        padding: 4em 0 5em;
+    }
+    .default_suptitle {
+        margin: 0 0 5px;
+    }
+    .default_title {
+        margin-bottom: 40px;
+    }
+    .expertise_card{
+        margin-top: 50px;
+    }
+}
+@media(max-width: 991px){
+
+}
+@media(max-width: 768px){
+    .container_narrow {
+        padding: 0 20px;
+    }
+    body.active {
+        overflow: hidden;
+    }
+    .aside {
+        transform: translateX(-105%);
+    }
+    .aside.active+.main {
+        transform: translateX(300px);
+    }
+    .aside.active+body {
+        overflow: hidden;
+    }
+    .burger_icon {
+        display: block;
+    }
+    .main {
+        width: 100%;
+    }
+    .swiper-slide1, .swiper-slide1 {
+        width: 100%;
+    }
+    .swiper-pagination {
+        left: 45px !important;
+        top: 105px !important;
+    }
+    .slide_inner {
+        width: 100%;
+    }
+    .slide_content {
+        text-align: center;
+    }
+    .slide_content h1 {
+        font-size: 40px;
+    }
+    .slide_btn {
+        display: block;
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .contact_content-form{
+        margin-left: 0;
+    }
+    .contact_content-info{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 575px){
+    .container_narrow {
+        padding: 0 0 0 20px;
+    }
+    .slider {
+        margin-bottom: 3em;
+    }
+    .expertise {
+        margin-bottom: 3em;
+    }
+    .default_section {
+        padding: 4em 0 3em;
+    }
+    .count_num {
+        font-size: 32px;
+    }
+    .experience_content {
+        padding-left: 60px;
+    }
+    .experience_content::before{
+        left: 33px;
+    }
+    .panel_header {
+        padding: 15px 25px;
+    }
+    .panel_collapse-inner {
+        padding: 22px;
+    }
+}
+@media(max-width: 425px){
+    .slider {
+        margin-bottom: 1em;
+    }
+    .counter {
+        margin-bottom: 2em;
+    }
+    .expertise {
+        padding-top: 2em;
+    }
+    .expertise_card {
+        margin-bottom: 45px;
+    }
+    .default_section {
+        padding: 2em 0 3em;
+    }
+    .default_btn {
+        padding: 10px 36px;
+    }
+}
+@media(max-width: 414px){
+    .experience_icon{
+        width: 35px;
+        height: 35px;
+    }
+    .experience_content::before {
+        left: 31px;
+    }
+    .domain_icon, .address_icon, .phone_icon {
+        padding: 0 25px;
+        width: 75px;
+        height: 75px;
+    }
+    .fa-map:before, .fa-phone:before {
+        font-size: 23px;
+    }
+}
+@media(max-width: 375px){
+    .slider {
+        margin-bottom: 3em;
+    }
+    .default_section {
+        padding: 1em 0 2em;
+    }
+    .default_suptitle {
+        margin: 0 0 0px;
+    }
+    .default_title {
+        margin-bottom: 15px;
+    }
+    .panel_header {
+        padding: 10px 10px;
+    }
+    .panel_header a::after {
+        right: 10px;
+    }
+    .panel_collapse-inner {
+        padding: 10px;
+    }
+    .panel_collapse ul {
+        padding-left: 18px;
+        margin-top: 8px;
+    }
+    .panel_header a::after {
+        font-size: 16px;
+    }
+    .experience_icon {
+        width: 30px;
+        height: 30px;
+    }
+    .experience_icon {
+        top: 3px;
+        left: -47px;
+    }
+    .experience_content {
+        padding-left: 48px;
+    }
+    .experience_content::before {
+        left: 29px;
+    }
+    .count_num {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .count_text{
+        margin-bottom: 20px;
+    }
+    .burger_icon {
+        left: 8px;
+    }
+    .burger_icon span {
+        width: 25px;
+    }
+    .burger_icon span::before, .burger_icon span::after {
+        width: 25px;
+    }
+}
+@media(max-width: 320px){
+    .burger_icon.active {
+        transform: translateX(250px);
+    }
+    .default_title {
+        font-size: 17px;
+    }
+}
